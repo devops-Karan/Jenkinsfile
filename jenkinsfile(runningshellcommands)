@@ -13,7 +13,7 @@ pipeline {
         stage('Compile') {
 
             steps {
-                sh 'cd /home/edureka'
+                sh 'cd /home/ec2-user'
                 sh 'ls'
                 sh 'pwd'
                 sh 'df'
